@@ -1,0 +1,36 @@
+{
+  "name": "mc-mapper",
+  "version": "0.0.1",
+  "description": "A library to help create funky maps in Minecraft Bedrock Edition using Code Connection",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.4.2",
+    "jest": "^26.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenniblock/mc-mapper.git"
+  },
+  "keywords": [
+    "minecraft",
+    "hackathon",
+    "hack",
+    "node"
+  ],
+  "author": "Owen Niblock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owenniblock/mc-mapper/issues"
+  },
+  "homepage": "https://github.com/owenniblock/mc-mapper#readme"
+}
