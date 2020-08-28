@@ -17,6 +17,9 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testTimeout": 500000
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/owenniblock/mc-mapper.git"
