@@ -8,6 +8,8 @@
     "test": "test"
   },
   "dependencies": {
+    "core-js": "^3.6.5",
+    "jimp": "^0.16.1",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
