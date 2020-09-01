@@ -1,7 +1,16 @@
 const imageHelper = require('../lib/image-helper');
 
 test('generate palette', async function(done) {
-    await imageHelper.getBlockPalette(12);
+    imageHelper.getBlockPalette(6).then(() => {
+        done();
+    });
+});
 
-    done();
+
+test('map image', async function(done) {
+    //await imageHelper.createMapImage('./images/npm-logo.png');
+    //imageHelper.createMapImage('./images/github.jpg').then(() => {
+    imageHelper.createMapImage('./images/ms.jpg').then(() => {
+        done();
+    });
 });
