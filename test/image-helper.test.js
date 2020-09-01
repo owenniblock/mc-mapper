@@ -10,7 +10,13 @@ test('generate palette', async function(done) {
 test('map image', async function(done) {
     //await imageHelper.createMapImage('./images/npm-logo.png');
     //imageHelper.createMapImage('./images/github.jpg').then(() => {
-    imageHelper.createMapImage('./images/ms.jpg').then(() => {
+    imageHelper.createMapImage('./images/1200px-The_Scream.jpg').then(() => {
+        done();
+    });
+});
+
+test('map image in greyscale', async function(done) {
+    imageHelper.createMapImage('./images/owen.jpg', true).then(() => {
         done();
     });
 });
