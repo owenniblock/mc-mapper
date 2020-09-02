@@ -32,10 +32,6 @@ class McmCommand extends Command {
   }
 }
 
-function sleep(millis) {
-  return new Promise(resolve => setTimeout(resolve, millis));
-}
-
 McmCommand.description = `Create a map by running 'mcm -i /path/to/image'`
 
 McmCommand.flags = {
