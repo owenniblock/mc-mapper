@@ -1,4 +1,5 @@
 // API docs: https://education.minecraft.net/wp-content/uploads/Code_Connection_API.pdf
+// TODO: Refactor this out as a fully blown client to Code Connection in its own package :-)
 
 const fetch = require('node-fetch');
 const blocks = require('../blocks.json')

@@ -1,4 +1,4 @@
-const imageHelper = require('../lib/image-helper');
+const imageHelper = require('../mcm/lib/image-helper');
 
 test('generate palette', async function(done) {
     imageHelper.getBlockPalette(6).then(() => {

@@ -1,5 +1,5 @@
 
-const client = require('../lib/mc-client');
+const client = require('../mcm/lib/mc-client');
 
 test('places block without error', async function (done) {
         await client.place(0, 0, 10, true, 'stone')

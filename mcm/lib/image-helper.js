@@ -1,5 +1,5 @@
 const jimp = require('jimp');
-const map = require('../lib/mc-client');
+const map = require('./mc-client');
 const fs = require('fs');
 
 const blocks = require('../blocks.json');

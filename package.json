@@ -4,7 +4,7 @@
   "description": "A library to help create funky maps in Minecraft Bedrock Edition using Code Connection",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "mcm/lib",
     "test": "test"
   },
   "dependencies": {

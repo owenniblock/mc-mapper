@@ -1,0 +1,44 @@
+{
+  "name": "mcm",
+  "description": "A Minecraft map creator command line tol",
+  "version": "0.0.1",
+  "author": "Owen Niblock @owenniblock",
+  "bin": {
+    "mcm": "./bin/run"
+  },
+  "bugs": "https://github.com/owenniblock/mc-mapper/issues",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.0",
+    "core-js": "^3.6.5",
+    "jimp": "^0.16.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/owenniblock/mc-mapper",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "mcm"
+  },
+  "repository": "owenniblock/mc-mapper",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
